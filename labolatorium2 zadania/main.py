@@ -32,21 +32,22 @@
 # print(napis)
 # print(napis.count('a'))
 
-# Zad 5. NIE WIEM JAK PRZEDSTAWIC WYNIK
+# Zad 5.
 # Napisz skrypt gdzie pobierzesz trzy liczby całkowite, gdzie wykonasz obliczenia: ab + c.
 # Użyj instrukcji readline() i write()).
 
-# import sys as system
-# system.stdout.write("Podaj liczbę a: ")
+# system.stdout.write('Podaj pierwsza liczbe: ')
 # a = system.stdin.readline()
-# system.stdout.write("Podaj liczbę b: ")
-# b = system.stdin.readline()
-# system.stdout.write("Podaj liczbę c: ")
-# c = system.stdin.readline()
-# wynik=a*b+c
-# print("Wynik działania ab+c=" +int(wynik))
+# a = int(a)
+# system.stdout.write('Podaj druga liczbe: ')
+# #b = system.stdin.readline()
+#b = int(b)
+#system.stdout.write('Podaj trzecia liczbe: ')
+#c = system.stdin.readline()
+#c = int(c)
+#system.stdout.write("Wartosc = " + str(a ** b + c))
 
-# Zad 6. NIE DZIAŁA WYŚWIETLA SIĘ TYLKO ELSE
+# Zad 6. 
 # Wczytaj trzy liczby całkowite a,b,c i sprawdź, która z nich jest największa. W zależności od
 # wyniku wyświetl odpowiedni komunikat. Użyj zagnieżdżeń.
 #
@@ -59,23 +60,23 @@
 # b=int(b)
 # c=int(c)
 #
-# if a > b & a > c:
+# if ((a > b) & (a > c)):
 #     print(u"Liczba a: %d jest największa" % (a))
-# elif b > a & b > c:
+# elif ((b >a) & (b > c)):
 #     print(u"Liczba b: %d jest największa" % (b))
-# elif c > a & c > b:
+# elif ((c > a) & (c > b)):
 #     print(u"Liczba c: %d jest największa" % (c))
-# elif a==b > c:
+# elif ((a==b) > c):
 #     print(u"Liczby a i b są równe: %d, %d i są największe" % (a, b))
-# elif a==c > b:
+# elif ((a==c) > b):
 #     print(u"Liczby a i c są równe: %d, %d i są największe" % (a, c))
-# elif c==b > a:
+# elif ((c==b) > a):
 #     print("Liczby c i b są równe: %d, %d i są największe" % (c, b))
-# elif a == b < c:
+# elif ((a == b) < c):
 #     print(u"Liczba c: %d jest największa" % (c))
-# elif a == c < b:
+# elif ((a == c) < b):
 #     print(u"Liczba b: %d jest największa" % (b))
-# elif c == b < a:
+# elif ((c == b) < a):
 #     print(u"Liczba a: %d jest największa" % (a))
 # else:
 #     print("Wszystkie liczby są równe: %d=%d=%d => a=b=c" % (a,b,c))
